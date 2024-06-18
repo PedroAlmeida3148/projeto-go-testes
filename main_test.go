@@ -29,7 +29,7 @@ func CriaAlunoMock() {
 	database.DB.Create(&aluno)
 	ID = int(aluno.ID)
 }
-# adicionar comentario para ver
+
 func DeletaAlunoMock() {
 	var aluno models.Aluno
 	database.DB.Delete(&aluno, ID)
